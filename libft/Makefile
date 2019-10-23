@@ -47,9 +47,11 @@ $(BINDIR)/$(NAME): $(OBJECTS)
 	@echo "$(OK_COLOR)$(NAME) linked with success !$(EOC)"
 
 $(OBJDIR)/%.o : $(SRCDIR)/%.c $(INCLUDES)
+	@mkdir -p $(OBJDIR)
 	@$(CC) -c $< -o $@ $(CFLAGS) 
 
 clean:
+	@rm -rf $(OBJDIR)
 	@rm -f $(OBJECTS)
 
 fclean: clean

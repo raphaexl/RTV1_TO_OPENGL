@@ -6,7 +6,7 @@
 /*   By: ebatchas <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/04 00:17:42 by ebatchas          #+#    #+#             */
-/*   Updated: 2019/10/06 13:13:47 by ebatchas         ###   ########.fr       */
+/*   Updated: 2019/10/23 16:42:47 by ebatchas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,7 +60,7 @@ t_scene		ft_scene_init(void)
 	s.planes[5].pos = ft_vec3_new(-100.0, 0.0, 0.0);
 	s.planes[5].normal = ft_vec3_new(1.0, 0.0, 0.0);
 	s.nb_planes = 6;
-	s.lights[0] = (t_light){{{{0.0, 1.0, 100.0}}}, {{{1.0, 1.0, 1.0}}}};
+	s.lights[0] = (t_light){{{{0.0, 1.0, 100.0}}}, {{{1.0, 0.5, 1.0}}}};
 	s.nb_lights = 1;
 	return (s);
 }

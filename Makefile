@@ -6,7 +6,7 @@
 #    By: ebatchas <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/10/03 16:42:41 by ebatchas          #+#    #+#              #
-#    Updated: 2019/10/06 13:38:16 by ebatchas         ###   ########.fr        #
+#    Updated: 2019/10/23 16:57:41 by ebatchas         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -33,13 +33,13 @@ LIBFT = $(LIBFTDIR)/libft.a
 LIBGLEWDIR = ~/.brew/Cellar/glew/2.1.0
 LIBGLEW_INCLUDEDIR = include
 LIBGLEW = $(LIBGLEWDIR)/lib/libGLEW.a
-LIBGLFWDIR = ~/.brew/Cellar/glfw/3.2.1
+LIBGLFWDIR = ~/.brew/Cellar/glfw/3.3
 LIBGLFW_INCLUDEDIR = include
 LIBGLFW = $(LIBGLFWDIR)/lib/
-LIBSDL2DIR = ~/.brew/Cellar/sdl2/2.0.9_1/
+LIBSDL2DIR = ~/.brew/Cellar/sdl2/2.0.10
 LIBSDL2_INCLUDEDIR = include
 LIBSDL2 = $(LIBSDL2DIR)/lib/
-LIBSDL2_IMAGE_DIR = ~/.brew/Cellar/sdl2_image/2.0.4
+LIBSDL2_IMAGE_DIR = ~/.brew/Cellar/sdl2_image/2.0.5
 LIBSDL2_IMAGE_INCLUDEDIR = include
 LIBSDL2_IMAGE = $(LIBSDL2_IMAGE_DIR)/lib/
 
